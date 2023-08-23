@@ -1,0 +1,97 @@
+/* Импорт шрифта Oswald из Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* Стили для всего body */
+body {    
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    -webkit-flow-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(196, 196, 196);
+}
+
+/* Стили для контейнера .wrapper */
+.wrapper {
+    background: white;
+    box-shadow: 0px 10px 20px rgb(254, 245, 167);
+    border-radius: 10px;
+    max-width: 1080px;
+    margin: 50px auto;    
+}
+
+/* Стили для блока header */
+header {
+    padding: 40px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    
+.rounded-logo {
+    border-radius: 40px; /* Применяем border-radius для округления логотипа */
+}
+/* Стили для изображений внутри .header_left */
+ img {
+    margin-right: 15px;
+    align-items: center;
+    
+}
+
+/* Стили для заголовков h1 и параграфов p внутри .header_left */
+ h1, h3,
+ p {
+    margin: 0;
+    
+    .span{
+    text-transform: bold;
+    font-size: 12px;
+    opacity: 0.5;
+}
+}
+
+}
+.items{
+    border-radius: 10px;
+}
+
+.card {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 20px ;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// /* Стили для ссылок (убираем декорацию подчеркивания) */
+// a {
+//     color: inherit; /* Унаследовать цвет текста */
+//     text-decoration: none; /* Убрать декорацию (подчеркивание) */
+// }
+
+// /* Стили для списков (убираем маркеры списка) */
+// ul {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// /* Стили для элементов списка (убираем стандартные маркеры списка) */
+// li {
+//     list-style-type: none;
+// }
